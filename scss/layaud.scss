@@ -1,0 +1,20 @@
+@import 'utilities/layaud_mix';
+@import 'global.css';
+@import 'layout.css';
+
+#grid_layaud{
+    @include caja;
+    
+    
+
+}
+
+.layaud{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+
+

@@ -67,5 +67,38 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
+@media screen and (min-width: 576px) {
+  .layaud {
+    flex: 1 0 auto;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .layaud {
+    flex: 2 0 auto;
+    width: 100%;
+  }
+  #grid_layaud {
+    flex: 1 0 auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .layaud {
+    width: 100%;
+  }
+  #grid_layaud {
+    flex: 2 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .layaud {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .layaud {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=first.css.map */

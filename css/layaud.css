@@ -1,0 +1,17 @@
+@import 'global.css';
+@import 'layout.css';
+#grid_layaud {
+  border: solid 1px var(--text-color);
+  text-align: center;
+  color: var(--text-color);
+  text-transform: uppercase;
+  padding: 10px 55px 10px 55px;
+}
+
+.layaud {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=layaud.css.map */

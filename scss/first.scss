@@ -80,3 +80,54 @@
         grid-template-columns: repeat(4, 1fr);
     }
 }
+
+
+
+//layaud
+@media screen and (min-width: get-breakpoint("sm")){
+    .layaud {
+        flex: 1 0 auto; 
+        width: 100%; 
+        
+    }
+
+    
+}
+@media screen and (min-width: get-breakpoint("md")) {
+    .layaud {
+        flex: 2 0 auto;
+        width: 100%; 
+    
+        
+    }
+    #grid_layaud{
+        flex: 1 0 auto;
+    }
+}
+
+@media screen and (min-width: get-breakpoint("lg")) {
+    .layaud {
+        
+        width: 100%; 
+        
+    }
+    #grid_layaud{
+        flex: 2 0 auto;
+    }
+}
+
+@media screen and (min-width: get-breakpoint("xl")) {
+    .layaud {
+        
+        width: 100%; 
+        
+    }
+}
+
+@media screen and (min-width: get-breakpoint("xxl")) {
+    .layaud {
+        
+        width: 100%; 
+        
+    }
+}
